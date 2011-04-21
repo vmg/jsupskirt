@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>
+			DAWG
+		</title>
+		<script>
+			function print_parse(text) {
+				document.getElementById('output').innerHTML = text;
+			}
+		</script>
+		<script src="upskirt.js"></script>
+		<script src="upskirt_ems.js"></script>
+	</head>
+	<body onload="document.getElementById('the_input').focus()">
+		<p>
+			YO I HEARD YOU LIKE JAVASCRIPT SO I'VE TRANSLATED SOME C INTO JAVASCRIPT SO YOU CAN MARKDOWN SOME SHIT
+		</p>
+		<hr>
+		<form onsubmit="print_parse(markdown(the_input.value)); the_input.value = ''; return false">
+			<p><b>Enter some Markdown up in this bitch:</b></p>
+			<p><textarea rows="10" cols="80" id="the_input"></textarea>
+			<input type="submit" value="PARSE THE FUCKER"></p>
+		</form>
+		<hr>
+		<div id="output"></div>
+	</body>
+</html>
+

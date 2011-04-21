@@ -1,0 +1,6 @@
+[submodule "upskirt"]
+	path = upskirt
+	url = git://github.com/tanoku/upskirt.git
+[submodule "emscripten"]
+	path = emscripten
+	url = git://github.com/kripken/emscripten.git
